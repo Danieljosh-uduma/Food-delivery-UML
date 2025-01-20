@@ -95,3 +95,12 @@ class Chef extends User {
 }
 
 
+class Cart {
+    constructor (userId, foodId, price, quantity) {
+        this.userId = userId;
+        this.foodId = foodId;
+        this.price = price;
+        this.quantity = quantity;
+    }
+}
+
